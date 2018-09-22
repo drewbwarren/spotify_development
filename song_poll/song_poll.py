@@ -4,6 +4,11 @@ import sys
 import spotipy
 import spotipy.util as util
 import random
+import Tkinter as tk
+
+## Button commands for ui
+def show_button():
+    print(song1)
 
 
 ## Take the tracks data from the playlist
@@ -36,6 +41,9 @@ while(True):
     if len(results) < 100:
         break
 
+## Set up the ui
+root = tk.Tk()
+root.title('Song Poll')
 
 
 ## Start the voting loop
@@ -55,6 +63,10 @@ while(True):
 
     print(song1 + " --- " + artist1)
     print(song2 + " --- " + artist2)
-    raw_input()
+
+    button1 = tk.Button(root, text=song1, command=show_button).grid(row=0, column=1)
+    button2 = tk.Button(root, text=song2, command=show_button).grid(row=1, column=1)
+    button3 = tk.Button(root, text='Quit', command=root.destroy).grid(row=2, column=1)
+    root.mainloop()
 
 
