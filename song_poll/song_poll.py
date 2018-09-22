@@ -44,12 +44,10 @@ while(True):
 ## Set up the ui
 root = tk.Tk()
 root.title('Song Poll')
-
+label = tk.Label(root, text="Choose one: ", padx=100)
 
 ## Start the voting loop
-N = len(tracks)
-while(True):
-
+def voting_loop(button1, button2):
     while(True):
         ind1 = random.randint(0,len(tracks)-1)
         ind2 = random.randint(0,len(tracks)-1)
@@ -60,13 +58,23 @@ while(True):
     song2 = tracks[ind2]
     artist1 = artists[ind1]
     artist2 = artists[ind2]
+    entry1 = song1 + ' --- ' + artist1
+    entry2 = song2 + ' --- ' + artist2
 
-    print(song1 + " --- " + artist1)
-    print(song2 + " --- " + artist2)
+    button1.config(text=entry1)
+    button2.config(text=entry2)
+    button1.pack()
+    button2.pack()
 
-    button1 = tk.Button(root, text=song1, command=show_button).grid(row=0, column=1)
-    button2 = tk.Button(root, text=song2, command=show_button).grid(row=1, column=1)
-    button3 = tk.Button(root, text='Quit', command=root.destroy).grid(row=2, column=1)
-    root.mainloop()
+def button_command():
+    voting_loop(button1, button2)
+    print('song title')
 
+N = len(tracks)
+button1 = tk.Button(root, width=50, command=button_command)
+button2 = tk.Button(root, width=50, command=button_command)
+voting_loop(button1, button2)
+
+tk.Button(root, text='Quit', command=root.quit)
+tk.mainloop()
 
