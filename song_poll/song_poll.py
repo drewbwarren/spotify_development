@@ -75,6 +75,6 @@ button1 = tk.Button(root, width=50, command=button_command)
 button2 = tk.Button(root, width=50, command=button_command)
 voting_loop(button1, button2)
 
-tk.Button(root, text='Quit', command=root.quit)
+tk.Button(root, text='Quit', command=root.quit).pack()
 tk.mainloop()
 
