@@ -26,6 +26,7 @@ sp = spotipy.Spotify(auth=token)
 
 tracks = []
 artists = []
+track_ids = []
 
 i = 0
 while(True):
@@ -36,6 +37,7 @@ while(True):
         track = track['track']
         tracks.append(track['name'])
         artists.append(track['artists'][0]['name'])
+        track_ids.append(track['uri'])
 
     i+=100
     if len(results) < 100:
@@ -60,15 +62,18 @@ def voting_loop(button1, button2):
     artist2 = artists[ind2]
     entry1 = song1 + ' --- ' + artist1
     entry2 = song2 + ' --- ' + artist2
+    id1 = track_ids[ind1]
+    id2 = track_ids[ind2]
 
-    button1.config(text=entry1)
-    button2.config(text=entry2)
+    button1.config(text=entry1, command=lambda: button_command(song1, artist1, id1))
+    button2.config(text=entry2, command=lambda: button_command(song2, artist2, id2))
     button1.pack()
     button2.pack()
 
-def button_command():
+def button_command(song, artist, song_id):
+    print(song, artist, song_id)
     voting_loop(button1, button2)
-    print('song title')
+
 
 N = len(tracks)
 button1 = tk.Button(root, width=50, command=button_command)
