@@ -6,7 +6,11 @@ import spotipy.util as util
 import random
 import Tkinter as tk
 import json
+from subprocess import Popen
 
+
+## Open Spotify so the songs can play
+Popen("/usr/bin/spotify", shell=True)
 
 ## Take the tracks data from the playlist
 
