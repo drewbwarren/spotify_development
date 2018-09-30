@@ -5,6 +5,7 @@ import spotipy
 import spotipy.util as util
 import random
 import Tkinter as tk
+import json
 
 
 ## Take the tracks data from the playlist
@@ -81,8 +82,11 @@ def button_command(song, artist, song_id):
 # Define the function to play the songs using the play buttons
 def play_command(song_id):
     print(song_id)
-    print(song_id[0])
-    sp.start_playback(context_uri=song_id)
+    # new_id_list = track_ids[0:10]
+    # new_id_list[0] = song_id
+    new_id_list = [song_id]
+    print(new_id_list)
+    sp.start_playback(uris=new_id_list)
 
 # Initialize the two song buttons
 button1 = tk.Button(root, width=50, command=button_command)
