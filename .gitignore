@@ -1,3 +1,5 @@
 tracks.txt
 .cache*
+.vscode
+json_write.py
 
