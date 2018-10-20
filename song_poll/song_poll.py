@@ -11,7 +11,7 @@ import time
 
 
 ## Open Spotify so the songs can play
-Popen("/usr/bin/spotify", shell=True)
+spotify = Popen("/usr/bin/spotify")
 
 ## Take the tracks data from the playlist
 
@@ -30,7 +30,7 @@ sp = spotipy.Spotify(auth=token)
 tracks = []
 artists = []
 track_ids = []
-score = [] # how many times thesong has been chosen
+votes = [] # how many times thesong has been chosen
 at_bat = [] # how many times the song has been available to vote on
 
 # Extract the track info from the playlist. Each item is in a very specific position of ...
@@ -44,7 +44,7 @@ try:
         tracks.append(row[0])
         artists.append(row[1])
         track_ids.append(row[2])
-        score.append(row[3])
+        votes.append(row[3])
         at_bat.append(row[4])
     print('file found')
 except IOError:
@@ -64,7 +64,7 @@ except IOError:
         i+=100
         if len(results) < 100:
             break
-    score = [0]*len(tracks)
+    votes = [0]*len(tracks)
     at_bat = [0]*len(tracks)
     print('file not found')
 
@@ -111,14 +111,29 @@ def voting_loop(button1, button2):
 
 # When the button is pressed, the score for the winning song increments
 def button_command(ind):
-    global score
-    score[ind] += 1
+    global votes
+    votes[ind] += 1
     voting_loop(button1, button2)
 
 # Define the function to play the songs using the play buttons
 def play_command(song_id):
     new_id_list = [song_id]
     sp.start_playback(uris=new_id_list)
+
+# Define the function to quit the voting and save the results
+def quit_command():
+    global tracks, artists, track_ids, votes, at_bat
+    poll = []
+    for i in range(len(tracks)):
+        if at_bat[i] == 0 or votes[i] == 0:
+            score = 0
+        elif at_bat[i] > 0:
+            score = float(votes[i])/float(at_bat[i])
+        poll.append([tracks[i], artists[i], track_ids[i], votes[i], at_bat[i], score])
+    with open('poll_results.json', 'w') as write_file:
+            json.dump(poll, write_file, indent=4)
+    spotify.kill()
+    root.quit()
 
 # Initialize the two song buttons
 button1 = tk.Button(root, width=50, command=button_command)
@@ -128,14 +143,14 @@ button2.grid(row=2, column=0)
 
 # Initialize the two play buttons
 play_button1 = tk.Button(root, width=5, text='>')
-play_button1.grid(row=1, column=2)
+play_button1.grid(row=1, column=1)
 play_button2 = tk.Button(root, width=5, text='>')
-play_button2.grid(row=2, column=2)
+play_button2.grid(row=2, column=1)
 
 # Begin the voting
 voting_loop(button1, button2)
 
 # Create a button for quitting the program
-tk.Button(root, text='Quit', command=root.quit).grid(row=3, column=1)
+tk.Button(root, text='Quit', command=quit_command).grid(row=3, column=1)
 tk.mainloop()
 
