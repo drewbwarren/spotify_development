@@ -6,14 +6,15 @@ import spotipy.util as util
 import random
 import Tkinter as tk
 import json
-from subprocess import Popen
+from subprocess import Popen, call
 import time
 
 
 ## Open Spotify so the songs can play
 spotify = Popen("/usr/bin/spotify")
 
-## Take the tracks data from the playlist
+# Set the environment variables through my alias
+call(['/bin/bash', '-i', '-c', 'spotify_song_poll_env'])
 
 # My personal Spotify info
 scope = 'user-library-read streaming'
@@ -84,8 +85,10 @@ label.grid(row=0, column=1)
 def voting_loop(button1, button2):
     # Select two random and unique tracks from the playlist
     while(True):
-        ind1 = random.randint(0,len(tracks)-1)
-        ind2 = random.randint(0,len(tracks)-1)
+        minimum_votes = min(at_bat)
+        less_viewed_songs = [i for i,x in enumerate(at_bat) if x == minimum_votes]
+        ind1 = random.choice(less_viewed_songs)  #random.randint(0,len(tracks)-1)
+        ind2 = random.choice(less_viewed_songs)  #random.randint(0,len(tracks)-1)
         if ind1 != ind2:
             break
 
