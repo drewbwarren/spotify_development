@@ -131,7 +131,7 @@ def quit_command():
         if at_bat[i] == 0 or votes[i] == 0:
             score = 0
         elif at_bat[i] > 0:
-            score = float(votes[i])/float(at_bat[i])
+            score = float(votes[i])*(1.0 + 10/float(at_bat[i]))
         poll.append([tracks[i], artists[i], track_ids[i], votes[i], at_bat[i], score])
     with open('poll_results.json', 'w') as write_file:
             json.dump(poll, write_file, indent=4)
@@ -157,3 +157,6 @@ voting_loop(button1, button2)
 tk.Button(root, text='Quit', command=quit_command).grid(row=3, column=1)
 tk.mainloop()
 
+
+
+# Continue after gui quits

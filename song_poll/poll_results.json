@@ -35,9 +35,9 @@
         "Buddy Holly", 
         "Weezer", 
         "spotify:track:3mwvKOyMmG77zZRunnxp9E", 
-        0, 
-        0, 
-        0
+        1, 
+        1, 
+        11.0
     ], 
     [
         "Undone - The Sweater Song", 
@@ -45,7 +45,7 @@
         "spotify:track:5WhtlIoxoZrMmuaWWEQhwV", 
         1, 
         2, 
-        0.5
+        6.0
     ], 
     [
         "Walk", 
@@ -69,7 +69,7 @@
         "spotify:track:7x8dCjCr0x6x2lXKujYD34", 
         1, 
         2, 
-        0.5
+        6.0
     ], 
     [
         "Everlong", 
@@ -101,7 +101,7 @@
         "spotify:track:1FFKj1TucNWJ6bbMvjZs7Z", 
         1, 
         1, 
-        1.0
+        11.0
     ], 
     [
         "Together", 
@@ -125,7 +125,7 @@
         "spotify:track:4ju3kQDIqNvWkmRParus3q", 
         1, 
         1, 
-        1.0
+        11.0
     ], 
     [
         "True Love", 
@@ -149,7 +149,7 @@
         "spotify:track:2uuTo18bRgXj3RvlbZKMvU", 
         1, 
         1, 
-        1.0
+        11.0
     ], 
     [
         "Valkyrie Missile", 
@@ -157,7 +157,7 @@
         "spotify:track:2ggtDdcgrAoMC1tlermPT9", 
         1, 
         1, 
-        1.0
+        11.0
     ], 
     [
         "I Miss You", 
@@ -165,7 +165,7 @@
         "spotify:track:4zpMmlQXeQ5PJXZSI02W99", 
         1, 
         1, 
-        1.0
+        11.0
     ], 
     [
         "Stay Together For The Kids", 
@@ -181,7 +181,7 @@
         "spotify:track:3C0f4W0lQSgMARICJF3KLh", 
         1, 
         1, 
-        1.0
+        11.0
     ], 
     [
         "All The Small Things", 
@@ -213,7 +213,7 @@
         "spotify:track:6u0x5ad9ewHvs3z6u9Oe3c", 
         1, 
         1, 
-        1.0
+        11.0
     ], 
     [
         "Reptilia", 
@@ -221,7 +221,7 @@
         "spotify:track:57Xjny5yNzAcsxnusKmAfA", 
         1, 
         1, 
-        1.0
+        11.0
     ], 
     [
         "Take It Or Leave It", 
@@ -237,7 +237,7 @@
         "spotify:track:3SUusuA9jH1v6PVwtYMbdv", 
         1, 
         1, 
-        1.0
+        11.0
     ], 
     [
         "Rock n Roll Will Break Your Heart", 
@@ -341,7 +341,7 @@
         "spotify:track:633TjzvG2smpc0aYgN9Xkd", 
         1, 
         1, 
-        1.0
+        11.0
     ], 
     [
         "Accident Without Emergency", 
@@ -381,7 +381,7 @@
         "spotify:track:6Hmj7SrLRbreLVfVS7mV1S", 
         1, 
         1, 
-        1.0
+        11.0
     ], 
     [
         "Rebellion (Lies)", 
@@ -404,7 +404,7 @@
         "Depeche Mode", 
         "spotify:track:6G6s82aFYVNCKK0jvTx4qp", 
         0, 
-        0, 
+        1, 
         0
     ], 
     [
@@ -428,7 +428,7 @@
         "Red Hot Chili Peppers", 
         "spotify:track:3CeYdUfGPCjKMDYyI1PpCh", 
         0, 
-        0, 
+        1, 
         0
     ], 
     [
@@ -469,7 +469,7 @@
         "spotify:track:0ll8uFnc0nANY35E0Lfxvg", 
         1, 
         1, 
-        1.0
+        11.0
     ], 
     [
         "This Is The Last Time", 
@@ -485,7 +485,7 @@
         "spotify:track:6AfD43Lt5CJgkemuE01gie", 
         2, 
         2, 
-        1.0
+        12.0
     ], 
     [
         "Everybody's Changing", 
@@ -501,7 +501,7 @@
         "spotify:track:2lXHg7BtTNoP39AezyCSfL", 
         1, 
         1, 
-        1.0
+        11.0
     ], 
     [
         "Lazy Eye", 
@@ -517,7 +517,7 @@
         "spotify:track:127qrKbnyZCYnn158P80op", 
         1, 
         1, 
-        1.0
+        11.0
     ], 
     [
         "Nightlight", 
@@ -525,7 +525,7 @@
         "spotify:track:2gvasLGz1T93mGbCITgl23", 
         1, 
         2, 
-        0.5
+        6.0
     ], 
     [
         "Saint", 
@@ -660,7 +660,7 @@
         "Grouplove", 
         "spotify:track:6iTYGVWLDQLFJt97rkpRdZ", 
         0, 
-        0, 
+        1, 
         0
     ], 
     [
@@ -677,7 +677,7 @@
         "spotify:track:5HKnWZRsDyGIrb6obvD0Yq", 
         1, 
         1, 
-        1.0
+        11.0
     ], 
     [
         "The One Moment", 
@@ -701,7 +701,7 @@
         "spotify:track:3CxKctUrKkkq6Ik2QpRW02", 
         2, 
         2, 
-        1.0
+        12.0
     ], 
     [
         "Every Other Freckle", 
@@ -741,7 +741,7 @@
         "spotify:track:7DdXf9x75iEVCHWfoRwRuR", 
         1, 
         1, 
-        1.0
+        11.0
     ], 
     [
         "Mistakes", 
@@ -805,7 +805,7 @@
         "spotify:track:13PUJCvdTSCT1dn70tlGdm", 
         1, 
         2, 
-        0.5
+        6.0
     ], 
     [
         "Glory", 
@@ -813,7 +813,7 @@
         "spotify:track:4XoDdGtXBIkDLaGT0t8RbI", 
         1, 
         2, 
-        0.5
+        6.0
     ], 
     [
         "Dearly Departed (feat. Esm\u00e9 Patterson)", 
@@ -821,7 +821,7 @@
         "spotify:track:0ewrI06EIDMGXvgJxuyF3U", 
         1, 
         2, 
-        0.5
+        6.0
     ], 
     [
         "If Not For You", 
@@ -869,7 +869,7 @@
         "spotify:track:1LpYgSYSSWh7Sb751TXkK9", 
         1, 
         1, 
-        1.0
+        11.0
     ], 
     [
         "I Will Follow You Into The Dark", 
@@ -877,7 +877,7 @@
         "spotify:track:3kZC0ZmFWrEHdUCmUqlvgZ", 
         1, 
         1, 
-        1.0
+        11.0
     ], 
     [
         "Title And Registration", 
@@ -892,7 +892,7 @@
         "Death Cab for Cutie", 
         "spotify:track:4mCF3EBgGPSqmEm205KBAV", 
         0, 
-        0, 
+        1, 
         0
     ], 
     [
@@ -901,7 +901,7 @@
         "spotify:track:5mEyCUtI36Jmu2KNQQ4jaw", 
         1, 
         1, 
-        1.0
+        11.0
     ], 
     [
         "Recover", 
@@ -909,7 +909,7 @@
         "spotify:track:4QQg6DXsx6G3lv3W4A15CZ", 
         1, 
         2, 
-        0.5
+        6.0
     ], 
     [
         "Hot Air Balloon", 
@@ -957,7 +957,7 @@
         "spotify:track:1blxMGAKo9uttR9bHsXCOV", 
         1, 
         1, 
-        1.0
+        11.0
     ], 
     [
         "Such Great Heights - Remastered", 
@@ -965,7 +965,7 @@
         "spotify:track:7bqVZBRrNxmrF1iFQLYX2X", 
         2, 
         2, 
-        1.0
+        12.0
     ], 
     [
         "Nothing Better - Remastered", 
@@ -1091,9 +1091,9 @@
         "YYZ", 
         "Rush", 
         "spotify:track:3lpDrxUkr0tIe1kmJvdK7d", 
-        0, 
-        0, 
-        0
+        1, 
+        1, 
+        11.0
     ], 
     [
         "The Spirit Of Radio", 
@@ -1109,7 +1109,7 @@
         "spotify:track:2XwYeBzumtjxVbFWwhJpsy", 
         1, 
         1, 
-        1.0
+        11.0
     ], 
     [
         "Subdivisions", 
@@ -1117,7 +1117,7 @@
         "spotify:track:752jRqPIGGkJtQ8fC5fG4m", 
         1, 
         1, 
-        1.0
+        11.0
     ], 
     [
         "Foreplay / Long Time", 
@@ -1155,9 +1155,9 @@
         "Comfortably Numb", 
         "Pink Floyd", 
         "spotify:track:5HNCy40Ni5BZJFw1TKzRsC", 
-        0, 
-        0, 
-        0
+        1, 
+        1, 
+        11.0
     ], 
     [
         "Stay Together For The Kids", 
@@ -1165,7 +1165,7 @@
         "spotify:track:3QmjMVakV28Rtk3b3vqdJv", 
         1, 
         1, 
-        1.0
+        11.0
     ], 
     [
         "Reapers", 
@@ -1179,9 +1179,9 @@
         "Madness", 
         "Muse", 
         "spotify:track:0c4IEciLCDdXEhhKxj4ThA", 
-        0, 
-        0, 
-        0
+        1, 
+        1, 
+        11.0
     ], 
     [
         "Follow Me", 
@@ -1189,7 +1189,7 @@
         "spotify:track:6r9tjMWLv8fNdZKKTnqCEr", 
         3, 
         3, 
-        1.0
+        13.000000000000002
     ], 
     [
         "MK Ultra", 
@@ -1197,7 +1197,7 @@
         "spotify:track:0MrkZz4D3fGlEkhebjPPrh", 
         1, 
         2, 
-        0.5
+        6.0
     ], 
     [
         "Starlight", 
@@ -1219,9 +1219,9 @@
         "Map Of The Problematique", 
         "Muse", 
         "spotify:track:5YXr4AGfUQpLSxtFSsKUh6", 
-        0, 
-        0, 
-        0
+        1, 
+        1, 
+        11.0
     ], 
     [
         "Invincible", 
@@ -1229,7 +1229,7 @@
         "spotify:track:2zmR3FG7iOGDAdwrVPzdg9", 
         1, 
         1, 
-        1.0
+        11.0
     ], 
     [
         "Assassin", 
@@ -1237,7 +1237,7 @@
         "spotify:track:6JnFVmPyJvjnfBag0hhIFa", 
         2, 
         2, 
-        1.0
+        12.0
     ], 
     [
         "Exo-Politics", 
@@ -1269,7 +1269,7 @@
         "spotify:track:2takcwOaAZWiXQijPHIx7B", 
         1, 
         1, 
-        1.0
+        11.0
     ], 
     [
         "Sing For Absolution", 
@@ -1277,7 +1277,7 @@
         "spotify:track:1hHuyqVCZCbhYQixEkdQCo", 
         1, 
         1, 
-        1.0
+        11.0
     ], 
     [
         "Stockholm Syndrome", 
@@ -1285,7 +1285,7 @@
         "spotify:track:5VVWgWH8HFLAtM8lbttvn9", 
         1, 
         1, 
-        1.0
+        11.0
     ], 
     [
         "Hysteria", 
@@ -1301,7 +1301,7 @@
         "spotify:track:0xJLcjd0gaZct43xG1UlXS", 
         1, 
         1, 
-        1.0
+        11.0
     ], 
     [
         "New Born", 
@@ -1309,7 +1309,7 @@
         "spotify:track:6KR9NaynH8bF9w727wKQBL", 
         1, 
         1, 
-        1.0
+        11.0
     ], 
     [
         "Bliss", 
@@ -1325,7 +1325,7 @@
         "spotify:track:3LwfE3USKwANPjPz34iGDZ", 
         1, 
         1, 
-        1.0
+        11.0
     ], 
     [
         "Plug In Baby", 
@@ -1357,7 +1357,7 @@
         "spotify:track:6kyxQuFD38mo4S3urD2Wkw", 
         1, 
         1, 
-        1.0
+        11.0
     ], 
     [
         "Hate This and I'll Love You", 
@@ -1373,7 +1373,7 @@
         "spotify:track:2kPQFWoXuRz6jNsEo48Inm", 
         1, 
         2, 
-        0.5
+        6.0
     ], 
     [
         "The End.", 
@@ -1413,7 +1413,7 @@
         "spotify:track:70x1x9NbSJJXkrgvIyyAVX", 
         1, 
         1, 
-        1.0
+        11.0
     ], 
     [
         "Can I Sit Next to You", 
@@ -1421,7 +1421,7 @@
         "spotify:track:0AEDv1M9FMXJGFprzukZqy", 
         1, 
         1, 
-        1.0
+        11.0
     ], 
     [
         "I Ain't the One", 
@@ -1437,7 +1437,7 @@
         "spotify:track:0KoqGhlIE6z7Wyil2MN0xh", 
         2, 
         3, 
-        0.6666666666666666
+        8.666666666666668
     ], 
     [
         "Inside Out", 
@@ -1469,7 +1469,7 @@
         "spotify:track:67F4DCkqJncqUajy0ixDtb", 
         1, 
         1, 
-        1.0
+        11.0
     ], 
     [
         "Don't Make Me a Target", 
@@ -1477,7 +1477,7 @@
         "spotify:track:1IyDxMIDxs9G4I6w26s0ZY", 
         1, 
         1, 
-        1.0
+        11.0
     ], 
     [
         "The Ghost of You Lingers", 
@@ -1501,15 +1501,15 @@
         "spotify:track:6MCYY4i1zrRIbVj9YlVUdF", 
         1, 
         1, 
-        1.0
+        11.0
     ], 
     [
         "My Little Japanese Cigarette Case", 
         "Spoon", 
         "spotify:track:1ZRqVJjwzlNNxWKfpTpUKJ", 
-        0, 
-        0, 
-        0
+        1, 
+        1, 
+        11.0
     ], 
     [
         "Black Like Me", 
@@ -1525,7 +1525,7 @@
         "spotify:track:0BGkmV4Sjl61ct6dcmQgK7", 
         1, 
         1, 
-        1.0
+        11.0
     ], 
     [
         "The Two Sides of Monsieur Valentine", 
@@ -1565,7 +1565,7 @@
         "spotify:track:53xmj5xty3bZvjsSjdXzuq", 
         2, 
         2, 
-        1.0
+        12.0
     ], 
     [
         "I Summon You", 
@@ -1589,7 +1589,7 @@
         "spotify:track:3te9O2yuGwfy5kK8HWuuLK", 
         1, 
         1, 
-        1.0
+        11.0
     ], 
     [
         "Merchants of Soul", 
@@ -1605,7 +1605,7 @@
         "spotify:track:141UpF0ofvBWm3r5JQwZ83", 
         1, 
         1, 
-        1.0
+        11.0
     ], 
     [
         "Don\u2019t Let It Get You Down", 
@@ -1613,7 +1613,7 @@
         "spotify:track:205oa0Rp6rvotxDwXiSBYP", 
         1, 
         1, 
-        1.0
+        11.0
     ], 
     [
         "Back To The Life", 
@@ -1621,7 +1621,7 @@
         "spotify:track:0IlHoaCApPL3H9ck5aUk5h", 
         1, 
         3, 
-        0.3333333333333333
+        4.333333333333334
     ], 
     [
         "Vittorio E.", 
@@ -1629,14 +1629,14 @@
         "spotify:track:53SDPdshPZZy3AG7l78j45", 
         2, 
         2, 
-        1.0
+        12.0
     ], 
     [
         "Everything Hits At Once", 
         "Spoon", 
         "spotify:track:20gPDGp75RlBO8ojAytv5y", 
         0, 
-        0, 
+        1, 
         0
     ], 
     [
@@ -1653,7 +1653,7 @@
         "spotify:track:1QgI14YcWg3tOobXjzlNMl", 
         1, 
         1, 
-        1.0
+        11.0
     ], 
     [
         "Subterranean Homesick Alien (Remastered)", 
@@ -1661,7 +1661,7 @@
         "spotify:track:2kDEGoEVHfpNPMOs7IIG5y", 
         1, 
         1, 
-        1.0
+        11.0
     ], 
     [
         "Let Down (Remastered)", 
@@ -1685,7 +1685,7 @@
         "spotify:track:5O3FBCAj4Y3rvPXrEmlinc", 
         1, 
         1, 
-        1.0
+        11.0
     ], 
     [
         "I Promise", 
@@ -1708,7 +1708,7 @@
         "Radiohead", 
         "spotify:track:1uRxyAup7OYrlh2SHJb80N", 
         0, 
-        0, 
+        1, 
         0
     ], 
     [
@@ -1725,7 +1725,7 @@
         "spotify:track:5k7VKj1Xwy5DjO4B0PdAOb", 
         2, 
         3, 
-        0.6666666666666666
+        8.666666666666668
     ], 
     [
         "Weird Fishes/ Arpeggi", 
@@ -1741,7 +1741,7 @@
         "spotify:track:51ygW389BW4Dut3B69pSwc", 
         1, 
         1, 
-        1.0
+        11.0
     ], 
     [
         "Faust Arp", 
@@ -1765,7 +1765,7 @@
         "spotify:track:3Jc6X15OZCCyhGSHBF4hwB", 
         2, 
         2, 
-        1.0
+        12.0
     ], 
     [
         "Jigsaw Falling Into Place", 
@@ -1789,7 +1789,7 @@
         "spotify:track:37kUGdEJJ7NaMl5LFW4EA4", 
         1, 
         1, 
-        1.0
+        11.0
     ], 
     [
         "There, There", 
@@ -1797,7 +1797,7 @@
         "spotify:track:77SPrxY5gn6VPrKPGrfLnM", 
         1, 
         1, 
-        1.0
+        11.0
     ], 
     [
         "Pyramid Song", 
@@ -1813,7 +1813,7 @@
         "spotify:track:2xbrMtkxp399aSiCJ8EAON", 
         1, 
         1, 
-        1.0
+        11.0
     ], 
     [
         "Morning Bell/Amnesiac", 
@@ -1821,7 +1821,7 @@
         "spotify:track:3jaA0iP323UuDVVDA9sfSl", 
         1, 
         1, 
-        1.0
+        11.0
     ], 
     [
         "Everything In Its Right Place", 
@@ -1836,7 +1836,7 @@
         "Radiohead", 
         "spotify:track:69pwmeyvQMuHMtkCmpEWhQ", 
         0, 
-        0, 
+        1, 
         0
     ], 
     [
@@ -1861,7 +1861,7 @@
         "spotify:track:0COiZ7ncho2yi4HotbzgPv", 
         1, 
         2, 
-        0.5
+        6.0
     ], 
     [
         "Planet Telex", 
@@ -1909,7 +1909,7 @@
         "spotify:track:6JzzI3YxHCcjZ7MCQS2YS1", 
         1, 
         2, 
-        0.5
+        6.0
     ], 
     [
         "Street Spirit (Fade Out)", 
@@ -1925,7 +1925,7 @@
         "spotify:track:6b2oQwSGFkzsMtQruIWm2p", 
         1, 
         1, 
-        1.0
+        11.0
     ], 
     [
         "The Daily Mail", 
@@ -1933,7 +1933,7 @@
         "spotify:track:4dHDQFENPSHTR5OxyI1JB0", 
         1, 
         1, 
-        1.0
+        11.0
     ], 
     [
         "The Light", 
@@ -1941,7 +1941,7 @@
         "spotify:track:3YlJKAnvDjHNFjFVy2MXMG", 
         1, 
         1, 
-        1.0
+        11.0
     ], 
     [
         "Always For You", 
@@ -1949,7 +1949,7 @@
         "spotify:track:4yNIhnbjp5AcsiqXkYRC5m", 
         1, 
         1, 
-        1.0
+        11.0
     ], 
     [
         "Shine", 
@@ -1981,7 +1981,7 @@
         "spotify:track:3P2Rt4TB9bSq8qX2d8eRGM", 
         1, 
         1, 
-        1.0
+        11.0
     ], 
     [
         "Broken Arrow", 
@@ -2029,7 +2029,7 @@
         "spotify:track:5kqzhCS5zU112zfotESJ3Y", 
         1, 
         1, 
-        1.0
+        11.0
     ], 
     [
         "Wilderness", 
@@ -2101,7 +2101,7 @@
         "spotify:track:4iVbMHv3CYSF3zVKKoUA18", 
         1, 
         3, 
-        0.3333333333333333
+        4.333333333333334
     ], 
     [
         "Triumphant", 
@@ -2116,7 +2116,7 @@
         "R\u00f6yksopp", 
         "spotify:track:4lJa2Zgl6QZsjn4R1hWK9B", 
         0, 
-        0, 
+        1, 
         0
     ], 
     [
@@ -2157,7 +2157,7 @@
         "spotify:track:7dvkAGglW9TS6VmQ6sufAX", 
         1, 
         1, 
-        1.0
+        11.0
     ], 
     [
         "Photograph", 
@@ -2205,7 +2205,7 @@
         "spotify:track:2sNGaLOMBIkyVFPsQqPQdW", 
         1, 
         1, 
-        1.0
+        11.0
     ], 
     [
         "The Ice Of Boston", 
@@ -2213,7 +2213,7 @@
         "spotify:track:2HgZBNeDPWBcIEFtqnYPgR", 
         1, 
         1, 
-        1.0
+        11.0
     ], 
     [
         "Your Best American Girl", 
@@ -2229,14 +2229,14 @@
         "spotify:track:1WTEZRMuQgBlXTGPL9paTi", 
         1, 
         1, 
-        1.0
+        11.0
     ], 
     [
         "Figure It Out", 
         "Royal Blood", 
         "spotify:track:6tPUSaejY2IMpBPFfQqjKd", 
         0, 
-        0, 
+        1, 
         0
     ], 
     [
@@ -2253,7 +2253,7 @@
         "spotify:track:5L5VSFuMw19b9AMXMfSn8l", 
         1, 
         1, 
-        1.0
+        11.0
     ], 
     [
         "Poppiholla - 5 AM Mix", 
@@ -2293,7 +2293,7 @@
         "spotify:track:76WRHOINx2bIcOgnwBKydI", 
         1, 
         3, 
-        0.3333333333333333
+        4.333333333333334
     ], 
     [
         "More Than Life", 
@@ -2381,7 +2381,7 @@
         "spotify:track:69kOkLUCkxIZYexIgSG8rq", 
         1, 
         1, 
-        1.0
+        11.0
     ], 
     [
         "Harder Better Faster Stronger", 
@@ -2412,7 +2412,7 @@
         "Weezer", 
         "spotify:track:7wclPheMJAUKn2njmO2s3A", 
         0, 
-        0, 
+        1, 
         0
     ]
 ]
