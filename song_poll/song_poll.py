@@ -68,12 +68,8 @@ except IOError:
     votes = [0]*len(tracks)
     at_bat = [0]*len(tracks)
     print('file not found')
+scores = [0]*len(tracks)
 
-# Start playing the playlist to activate the device, then immediately puase it
-# time.sleep(10)
-# context = "spotify:playlist:" + playlist
-# sp.start_playback(context_uri=context)
-# sp.pause_playback()
 
 ## Set up the ui
 root = tk.Tk()
@@ -102,26 +98,29 @@ def voting_loop(button1, button2):
     id1 = track_ids[ind1]
     id2 = track_ids[ind2]
 
-    # Update the at_bat list to show these two songs have been selected
-    at_bat[ind1] += 1
-    at_bat[ind2] += 1
-
     # Change the button text and pass the track info into the button_command
-    button1.config(text=entry1, command=lambda: button_command(ind1))
-    button2.config(text=entry2, command=lambda: button_command(ind2))
+    button1.config(text=entry1, command=lambda: button_command(ind1,ind2))
+    button2.config(text=entry2, command=lambda: button_command(ind2,ind1))
     play_button1.config(command=lambda: play_command(id1))
     play_button2.config(command=lambda: play_command(id2))
 
 # When the button is pressed, the score for the winning song increments
-def button_command(ind):
+def button_command(indWin,indLose):
     global votes
-    votes[ind] += 1
+    # Update the at_bat list to show these two songs have been selected
+    at_bat[indWin] += 1
+    at_bat[indLose] += 1
+    # Increment the winning song
+    votes[indWin] += 1
     voting_loop(button1, button2)
 
 # Define the function to play the songs using the play buttons
 def play_command(song_id):
     new_id_list = [song_id]
     sp.start_playback(uris=new_id_list)
+
+def skip_command():
+    voting_loop(button1,button2)
 
 # Define the function to quit the voting and save the results
 def quit_command():
@@ -132,6 +131,7 @@ def quit_command():
             score = 0
         elif at_bat[i] > 0:
             score = float(votes[i])*(1.0 + 10/float(at_bat[i]))
+        scores[i] = score
         poll.append([tracks[i], artists[i], track_ids[i], votes[i], at_bat[i], score])
     with open('poll_results.json', 'w') as write_file:
             json.dump(poll, write_file, indent=4)
@@ -154,9 +154,13 @@ play_button2.grid(row=2, column=1)
 voting_loop(button1, button2)
 
 # Create a button for quitting the program
+tk.Button(root, text='Skip', command=skip_command).grid(row=3, column=0)
 tk.Button(root, text='Quit', command=quit_command).grid(row=3, column=1)
 tk.mainloop()
 
 
 
-# Continue after gui quits
+# Print the results
+score_ind = sorted(range(len(scores)), key = lambda k: scores[k])
+for ind in reversed(score_ind):
+    print(tracks[ind], ' --- ', scores[ind])
