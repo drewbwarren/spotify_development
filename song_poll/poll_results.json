@@ -44,8 +44,8 @@
         "Weezer", 
         "spotify:track:5WhtlIoxoZrMmuaWWEQhwV", 
         1, 
-        2, 
-        6.0
+        3, 
+        4.333333333333334
     ], 
     [
         "Walk", 
@@ -91,17 +91,17 @@
         "Icky Thump", 
         "The White Stripes", 
         "spotify:track:09QZAEmdbq28OaNyqTOEvY", 
-        1, 
         2, 
-        6.0
+        3, 
+        8.666666666666668
     ], 
     [
         "These Stones Will Shout", 
         "The Raconteurs", 
         "spotify:track:1FFKj1TucNWJ6bbMvjZs7Z", 
-        2, 
-        2, 
-        12.0
+        3, 
+        3, 
+        13.000000000000002
     ], 
     [
         "Together", 
@@ -164,24 +164,24 @@
         "blink-182", 
         "spotify:track:4zpMmlQXeQ5PJXZSI02W99", 
         1, 
-        2, 
-        6.0
+        3, 
+        4.333333333333334
     ], 
     [
         "Stay Together For The Kids", 
         "blink-182", 
         "spotify:track:3QmjMVakV28Rtk3b3vqdJv", 
         0, 
-        2, 
+        3, 
         0
     ], 
     [
         "The Rock Show", 
         "blink-182", 
         "spotify:track:3C0f4W0lQSgMARICJF3KLh", 
-        1, 
         2, 
-        6.0
+        3, 
+        8.666666666666668
     ], 
     [
         "All The Small Things", 
@@ -203,9 +203,9 @@
         "What's My Age Again?", 
         "blink-182", 
         "spotify:track:5JZcX7TTLx4l0xFIXJ3DBt", 
-        1, 
         2, 
-        6.0
+        3, 
+        8.666666666666668
     ], 
     [
         "Under Cover of Darkness", 
@@ -236,8 +236,8 @@
         "The Strokes", 
         "spotify:track:3SUusuA9jH1v6PVwtYMbdv", 
         2, 
-        2, 
-        12.0
+        3, 
+        8.666666666666668
     ], 
     [
         "Rock n Roll Will Break Your Heart", 
@@ -260,7 +260,7 @@
         "The Fratellis", 
         "spotify:track:4kiMvD7yPec5viFrCQDiYK", 
         0, 
-        2, 
+        3, 
         0
     ], 
     [
@@ -292,7 +292,7 @@
         "Arcade Fire", 
         "spotify:track:589tDJy7iBcPxxFZwcUf2A", 
         0, 
-        2, 
+        3, 
         0
     ], 
     [
@@ -332,7 +332,7 @@
         "Portugal. The Man", 
         "spotify:track:4vWNhCGqrNVfZxunY47GDf", 
         0, 
-        2, 
+        3, 
         0
     ], 
     [
@@ -572,8 +572,8 @@
         "Queen", 
         "spotify:track:28h6N045oAj2q2k0jl4Vip", 
         2, 
-        2, 
-        12.0
+        3, 
+        8.666666666666668
     ], 
     [
         "Tongue Tied", 
@@ -676,8 +676,8 @@
         "OK Go", 
         "spotify:track:5HKnWZRsDyGIrb6obvD0Yq", 
         2, 
-        2, 
-        12.0
+        3, 
+        8.666666666666668
     ], 
     [
         "The One Moment", 
@@ -723,17 +723,17 @@
         "The Gospel of John Hurt", 
         "alt-J", 
         "spotify:track:5QZJAcP4nu3xL2NQV4AVHO", 
-        2, 
-        2, 
-        12.0
+        3, 
+        3, 
+        13.000000000000002
     ], 
     [
         "Matilda", 
         "alt-J", 
         "spotify:track:3aA5fk4c6a7e5HM4rJqkSF", 
         1, 
-        2, 
-        6.0
+        3, 
+        4.333333333333334
     ], 
     [
         "Fitzpleasure", 
@@ -748,16 +748,16 @@
         "Mates of State", 
         "spotify:track:2EXNFhlXNitaZT1gdbtbyH", 
         2, 
-        2, 
-        12.0
+        3, 
+        8.666666666666668
     ], 
     [
         "Lady Percy", 
         "King Charles", 
         "spotify:track:6PhGJDzaYdMAdlQbCgv6Ep", 
         1, 
-        2, 
-        6.0
+        3, 
+        4.333333333333334
     ], 
     [
         "Manchester", 
@@ -852,16 +852,16 @@
         "Regina Spektor", 
         "spotify:track:2JAUBPBVkimRLc5BGhAkfJ", 
         0, 
-        2, 
+        3, 
         0
     ], 
     [
         "I Will Possess Your Heart", 
         "Death Cab for Cutie", 
         "spotify:track:77vYwoC7e3pVoPq8BA9CuL", 
-        0, 
-        2, 
-        0
+        1, 
+        3, 
+        4.333333333333334
     ], 
     [
         "Different Names for the Same Thing", 
@@ -908,8 +908,8 @@
         "CHVRCHES", 
         "spotify:track:4QQg6DXsx6G3lv3W4A15CZ", 
         1, 
-        2, 
-        6.0
+        3, 
+        4.333333333333334
     ], 
     [
         "Hot Air Balloon", 
@@ -932,8 +932,8 @@
         "The Helio Sequence", 
         "spotify:track:1c6yxw5YKeA0iY6zY4po87", 
         1, 
-        2, 
-        6.0
+        3, 
+        4.333333333333334
     ], 
     [
         "Wait", 
@@ -956,8 +956,8 @@
         "Metric", 
         "spotify:track:1blxMGAKo9uttR9bHsXCOV", 
         1, 
-        2, 
-        6.0
+        3, 
+        4.333333333333334
     ], 
     [
         "Such Great Heights - Remastered", 
@@ -1091,9 +1091,9 @@
         "YYZ", 
         "Rush", 
         "spotify:track:3lpDrxUkr0tIe1kmJvdK7d", 
-        2, 
-        2, 
-        12.0
+        3, 
+        3, 
+        13.000000000000002
     ], 
     [
         "The Spirit Of Radio", 
@@ -1107,17 +1107,17 @@
         "Freewill", 
         "Rush", 
         "spotify:track:2XwYeBzumtjxVbFWwhJpsy", 
-        2, 
-        2, 
-        12.0
+        3, 
+        3, 
+        13.000000000000002
     ], 
     [
         "Subdivisions", 
         "Rush", 
         "spotify:track:752jRqPIGGkJtQ8fC5fG4m", 
         1, 
-        2, 
-        6.0
+        3, 
+        4.333333333333334
     ], 
     [
         "Foreplay / Long Time", 
@@ -1164,8 +1164,8 @@
         "blink-182", 
         "spotify:track:3QmjMVakV28Rtk3b3vqdJv", 
         1, 
-        2, 
-        6.0
+        3, 
+        4.333333333333334
     ], 
     [
         "Reapers", 
@@ -1203,9 +1203,9 @@
         "Starlight", 
         "Muse", 
         "spotify:track:3skn2lauGk7Dx6bVIt5DVj", 
-        2, 
-        2, 
-        12.0
+        3, 
+        3, 
+        13.000000000000002
     ], 
     [
         "Supermassive Black Hole", 
@@ -1219,9 +1219,9 @@
         "Map Of The Problematique", 
         "Muse", 
         "spotify:track:5YXr4AGfUQpLSxtFSsKUh6", 
-        2, 
-        2, 
-        12.0
+        3, 
+        3, 
+        13.000000000000002
     ], 
     [
         "Invincible", 
@@ -1251,9 +1251,9 @@
         "Knights Of Cydonia", 
         "Muse", 
         "spotify:track:7ouMYWpwJ422jRcDASZB7P", 
-        2, 
-        2, 
-        12.0
+        3, 
+        3, 
+        13.000000000000002
     ], 
     [
         "Glorious", 
@@ -1275,9 +1275,9 @@
         "Sing For Absolution", 
         "Muse", 
         "spotify:track:1hHuyqVCZCbhYQixEkdQCo", 
-        2, 
-        2, 
-        12.0
+        3, 
+        3, 
+        13.000000000000002
     ], 
     [
         "Stockholm Syndrome", 
@@ -1299,9 +1299,9 @@
         "Butterflies and Hurricanes", 
         "Muse", 
         "spotify:track:0xJLcjd0gaZct43xG1UlXS", 
-        2, 
-        2, 
-        12.0
+        3, 
+        3, 
+        13.000000000000002
     ], 
     [
         "New Born", 
@@ -1323,9 +1323,9 @@
         "Hyper Music", 
         "Muse", 
         "spotify:track:3LwfE3USKwANPjPz34iGDZ", 
-        2, 
-        2, 
-        12.0
+        3, 
+        3, 
+        13.000000000000002
     ], 
     [
         "Plug In Baby", 
@@ -1380,7 +1380,7 @@
         "My Chemical Romance", 
         "spotify:track:6s2yqZbiPNPL1B2IeCMsUA", 
         0, 
-        2, 
+        3, 
         0
     ], 
     [
@@ -1515,9 +1515,9 @@
         "Black Like Me", 
         "Spoon", 
         "spotify:track:6YR5h7yYi5NE4VojNa5EF9", 
-        2, 
-        2, 
-        12.0
+        3, 
+        3, 
+        13.000000000000002
     ], 
     [
         "The Beast and Dragon, Adored", 
@@ -1547,9 +1547,9 @@
         "My Mathematical Mind", 
         "Spoon", 
         "spotify:track:1pzkEbCMJFjkjApUdb0VMB", 
-        2, 
-        2, 
-        12.0
+        3, 
+        3, 
+        13.000000000000002
     ], 
     [
         "The Delicate Place", 
@@ -1571,9 +1571,9 @@
         "I Summon You", 
         "Spoon", 
         "spotify:track:3x0T1InTooVkA5KdaIh67B", 
-        2, 
-        2, 
-        12.0
+        3, 
+        3, 
+        13.000000000000002
     ], 
     [
         "Was It You?", 
@@ -1611,9 +1611,9 @@
         "Don\u2019t Let It Get You Down", 
         "Spoon", 
         "spotify:track:205oa0Rp6rvotxDwXiSBYP", 
-        1, 
         2, 
-        6.0
+        3, 
+        8.666666666666668
     ], 
     [
         "Back To The Life", 
@@ -1628,8 +1628,8 @@
         "Spoon", 
         "spotify:track:53SDPdshPZZy3AG7l78j45", 
         2, 
-        2, 
-        12.0
+        3, 
+        8.666666666666668
     ], 
     [
         "Everything Hits At Once", 
@@ -1683,9 +1683,9 @@
         "No Surprises (Remastered)", 
         "Radiohead", 
         "spotify:track:5O3FBCAj4Y3rvPXrEmlinc", 
-        2, 
-        2, 
-        12.0
+        3, 
+        3, 
+        13.000000000000002
     ], 
     [
         "I Promise", 
@@ -1699,9 +1699,9 @@
         "Burn the Witch", 
         "Radiohead", 
         "spotify:track:3pcCifdPTc2BbqmWpEhtUd", 
-        1, 
         2, 
-        6.0
+        3, 
+        8.666666666666668
     ], 
     [
         "Daydreaming", 
@@ -1852,7 +1852,7 @@
         "Radiohead", 
         "spotify:track:1HQYo8C5L0qd1p5f1anXPS", 
         0, 
-        2, 
+        3, 
         0
     ], 
     [
@@ -1876,7 +1876,7 @@
         "Radiohead", 
         "spotify:track:045sp2JToyTaaKyXkGejPy", 
         0, 
-        2, 
+        3, 
         0
     ], 
     [
@@ -1891,9 +1891,9 @@
         "Just", 
         "Radiohead", 
         "spotify:track:4SE81CrzH0qPA8KHqM9Syz", 
-        1, 
         2, 
-        6.0
+        3, 
+        8.666666666666668
     ], 
     [
         "Bullet Proof ... I Wish I Was", 
@@ -1939,9 +1939,9 @@
         "The Light", 
         "The Album Leaf", 
         "spotify:track:3YlJKAnvDjHNFjFVy2MXMG", 
-        2, 
-        2, 
-        12.0
+        3, 
+        3, 
+        13.000000000000002
     ], 
     [
         "Always For You", 
@@ -1972,24 +1972,24 @@
         "The Album Leaf", 
         "spotify:track:0EX968hIQpH6rZl2wep8yS", 
         0, 
-        2, 
+        3, 
         0
     ], 
     [
         "Wherever I Go", 
         "The Album Leaf", 
         "spotify:track:3P2Rt4TB9bSq8qX2d8eRGM", 
-        2, 
-        2, 
-        12.0
+        3, 
+        3, 
+        13.000000000000002
     ], 
     [
         "Broken Arrow", 
         "The Album Leaf", 
         "spotify:track:0vP8RxwmGIHtBWpSN9TRpt", 
-        2, 
-        2, 
-        12.0
+        3, 
+        3, 
+        13.000000000000002
     ], 
     [
         "Window", 
@@ -2003,9 +2003,9 @@
         "Thule", 
         "The Album Leaf", 
         "spotify:track:5HnWBaNZXZh2YQbpVoarcj", 
-        1, 
         2, 
-        6.0
+        3, 
+        8.666666666666668
     ], 
     [
         "Twentytwofourteen", 
@@ -2108,23 +2108,23 @@
         "R\u00f6yksopp", 
         "spotify:track:3lFZzjjv3OYsJGx3AaNT2d", 
         0, 
-        2, 
+        3, 
         0
     ], 
     [
         "Only This Moment", 
         "R\u00f6yksopp", 
         "spotify:track:4lJa2Zgl6QZsjn4R1hWK9B", 
-        0, 
-        2, 
-        0
+        1, 
+        3, 
+        4.333333333333334
     ], 
     [
         "Beautiful Day Without You", 
         "R\u00f6yksopp", 
         "spotify:track:7h7e3qGwgbW8wsxQb0NsWJ", 
         0, 
-        2, 
+        3, 
         0
     ], 
     [
@@ -2139,9 +2139,9 @@
         "Poor Leno", 
         "R\u00f6yksopp", 
         "spotify:track:5cxRbfQWrT4NZ2msbtSx4H", 
-        0, 
-        2, 
-        0
+        1, 
+        3, 
+        4.333333333333334
     ], 
     [
         "Remind Me - Radio Edit", 
@@ -2172,15 +2172,15 @@
         "Air", 
         "spotify:track:4fdsFgiSK33prbumkK1jf0", 
         1, 
-        2, 
-        6.0
+        3, 
+        4.333333333333334
     ], 
     [
         "Mike Mills", 
         "Air", 
         "spotify:track:4Kay0txJIyIz0c941Nurb1", 
         0, 
-        2, 
+        3, 
         0
     ], 
     [
@@ -2204,8 +2204,8 @@
         "Air", 
         "spotify:track:2sNGaLOMBIkyVFPsQqPQdW", 
         1, 
-        2, 
-        6.0
+        3, 
+        4.333333333333334
     ], 
     [
         "The Ice Of Boston", 
@@ -2236,8 +2236,8 @@
         "Royal Blood", 
         "spotify:track:6tPUSaejY2IMpBPFfQqjKd", 
         1, 
-        2, 
-        6.0
+        3, 
+        4.333333333333334
     ], 
     [
         "Us", 
@@ -2356,16 +2356,16 @@
         "The Who", 
         "spotify:track:3S9PcjheJ0JZHawN261M0p", 
         1, 
-        2, 
-        6.0
+        3, 
+        4.333333333333334
     ], 
     [
         "Giorgio by Moroder", 
         "Daft Punk", 
         "spotify:track:0oks4FnzhNp5QPTZtoet7c", 
-        2, 
-        2, 
-        12.0
+        3, 
+        3, 
+        13.000000000000002
     ], 
     [
         "Instant Crush", 
@@ -2387,17 +2387,17 @@
         "Harder Better Faster Stronger", 
         "Daft Punk", 
         "spotify:track:3mJniN9tHOtKru4vhsuiHu", 
-        1, 
         2, 
-        6.0
+        3, 
+        8.666666666666668
     ], 
     [
         "One More Time", 
         "Daft Punk", 
         "spotify:track:0DiWol3AO6WpXZgp0goxAV", 
-        1, 
         2, 
-        6.0
+        3, 
+        8.666666666666668
     ], 
     [
         "(If You're Wondering If I Want You To) I Want You To", 
