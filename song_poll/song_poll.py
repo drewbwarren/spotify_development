@@ -34,6 +34,7 @@ track_ids = []
 votes = [] # how many times thesong has been chosen
 at_bat = [] # how many times the song has been available to vote on
 
+
 # Extract the track info from the playlist. Each item is in a very specific position of ...
 # the data structure returned by the sp.user_playlist_tracks() function
 # Only run this if there is not already a results file available
@@ -49,26 +50,53 @@ try:
         at_bat.append(row[4])
     print('file found')
 except IOError:
-    # If there is no score file, extract the tracks from spotify
-    i = 0
-    while(True):
-        results = sp.user_playlist_tracks(username, playlist, offset=i, limit=100)
-        results = results['items']
-
-        for track in results:
-            track = track['track']
-            tracks.append(track['name'])
-            artists.append(track['artists'][0]['name'])
-            track_ids.append(track['uri'])
-
-        # The function can only return 100 tracks at a time.
-        i+=100
-        if len(results) < 100:
-            break
-    votes = [0]*len(tracks)
-    at_bat = [0]*len(tracks)
     print('file not found')
+
+
+# Take the tracks from the playlist, check them agains the results file
+i = 0
+track_check = []
+artist_check = []
+id_check = []
+while(True):
+    results = sp.user_playlist_tracks(username, playlist, offset=i, limit=100)
+    results = results['items']
+
+    for track in results:
+        track = track['track']
+        track_check.append(track['name'])
+        artist_check.append(track['artists'][0]['name'])
+        id_check.append(track['uri'])
+
+    # The function can only return 100 tracks at a time.
+    i+=100
+    if len(results) < 100:
+        break
+
+# Find the tracks in the playlist, then check if they are located in the results
+for i,track in enumerate(track_check):
+    if track in tracks:
+        pass
+    else:
+        tracks.append(track)
+        artists.append(artist_check[i])
+        track_ids.append(id_check[i])
+        votes.append(0)
+        at_bat.append(0)
+        print(track + ' added')
+
+# Clear unused variables
+del i, track_check, artist_check, id_check
+
+# Scores list must match length of new track list
 scores = [0]*len(tracks)
+
+
+#
+#****************************************************
+# Data retreival complete
+#****************************************************
+#
 
 
 ## Set up the ui
