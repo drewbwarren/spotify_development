@@ -111,8 +111,14 @@ def voting_loop(button1, button2):
     while(True):
         minimum_votes = min(at_bat)
         less_viewed_songs = [i for i,x in enumerate(at_bat) if x == minimum_votes]
-        ind1 = random.choice(less_viewed_songs)  #random.randint(0,len(tracks)-1)
-        ind2 = random.choice(less_viewed_songs)  #random.randint(0,len(tracks)-1)
+        if len(less_viewed_songs) > 1: # check how many songs are left
+            ind1 = random.choice(less_viewed_songs)  #random.randint(0,len(tracks)-1)
+            ind2 = random.choice(less_viewed_songs)  #random.randint(0,len(tracks)-1)
+            print(less_viewed_songs)
+        else:
+            ind1 = less_viewed_songs[0]
+            ind2 = random.choice(range(len(tracks)))
+        # print(ind1,ind2)
         if ind1 != ind2:
             break
 
