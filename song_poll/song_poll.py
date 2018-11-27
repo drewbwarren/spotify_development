@@ -113,7 +113,7 @@ def voting_loop(button1, button2):
         less_viewed_songs = [i for i,x in enumerate(at_bat) if x == minimum_votes]
         if len(less_viewed_songs) > 1: # check how many songs are left
             ind1 = random.choice(less_viewed_songs)  #random.randint(0,len(tracks)-1)
-            ind2 = random.choice(less_viewed_songs)  #random.randint(0,len(tracks)-1)
+            ind2 = random.choice(range(len(tracks)))  #random.randint(0,len(tracks)-1)
             print(less_viewed_songs)
         else:
             ind1 = less_viewed_songs[0]
@@ -156,6 +156,9 @@ def play_command(song_id):
 def skip_command():
     voting_loop(button1,button2)
 
+def pause_command():
+    sp.pause_playback()
+
 # Define the function to quit the voting and save the results
 def quit_command():
     global tracks, artists, track_ids, votes, at_bat
@@ -189,7 +192,8 @@ voting_loop(button1, button2)
 
 # Create a button for quitting the program
 tk.Button(root, text='Skip', command=skip_command).grid(row=3, column=0)
-tk.Button(root, text='Quit', command=quit_command).grid(row=3, column=1)
+tk.Button(root, text='||', command=pause_command).grid(row=3, column=1)
+tk.Button(root, text='Quit', command=quit_command).grid(row=4, column=1)
 tk.mainloop()
 
 
