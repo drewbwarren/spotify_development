@@ -17,9 +17,10 @@ spotify = Popen("/usr/bin/spotify")
 call(['/bin/bash', '-i', '-c', 'spotify_song_poll_env'])
 
 # My personal Spotify info
-scope = 'user-library-read streaming'
+scope = 'user-library-read streaming playlist-modify-public'
 username = '1295552060'
 playlist = '0UGlsRHlwdrsnYcgty9dCR'
+results_playlist = '1cgMS7J9sCxKQ5vcvms4RM'
 
 # Authorization to use the Spotify SDK
 token = util.prompt_for_user_token(username, scope)
@@ -112,13 +113,12 @@ def voting_loop(button1, button2):
         minimum_votes = min(at_bat)
         less_viewed_songs = [i for i,x in enumerate(at_bat) if x == minimum_votes]
         if len(less_viewed_songs) > 1: # check how many songs are left
-            ind1 = random.choice(less_viewed_songs)  #random.randint(0,len(tracks)-1)
-            ind2 = random.choice(range(len(tracks)))  #random.randint(0,len(tracks)-1)
+            ind1 = random.choice(less_viewed_songs)  
+            ind2 = random.choice(range(len(tracks))) 
             print(less_viewed_songs)
         else:
             ind1 = less_viewed_songs[0]
             ind2 = random.choice(range(len(tracks)))
-        # print(ind1,ind2)
         if ind1 != ind2:
             break
 
@@ -150,6 +150,7 @@ def button_command(indWin,indLose):
 
 # Define the function to play the songs using the play buttons
 def play_command(song_id):
+    print(song_id)
     new_id_list = [song_id]
     sp.start_playback(uris=new_id_list)
 
@@ -200,5 +201,48 @@ tk.mainloop()
 
 # Print the results
 score_ind = sorted(range(len(scores)), key = lambda k: scores[k])
-for ind in reversed(score_ind):
-    print(tracks[ind], ' --- ', scores[ind])
+results = reversed(score_ind)
+for i,ind in enumerate(results):
+    if i <= 25:
+        print(tracks[ind], ' --- ', scores[ind])
+    if i == 0:
+        sp.user_playlist_replace_tracks(username,results_playlist,[track_ids[ind]])
+    else:
+        sp.user_playlist_add_tracks(username,results_playlist,[track_ids[ind]])
+    
+
+
+
+
+
+
+# Reorder the results playlist to match scores
+# https://open.spotify.com/user/1295552060/playlist/1cgMS7J9sCxKQ5vcvms4RM?si=VKXecWXGSp6Iq5LjyZ1gsw
+
+# for i,ind in enumerate(results):
+#     if i == 0:
+#         print(track_ids[ind],tracks[ind])
+#         sp.user_playlist_replace_tracks(username,results_playlist,track_ids[ind])
+
+
+# print(track_ids[results])
+# print(track_ids[0:10])
+
+# def reorder_results(track_list,results):
+#     n = len(track_list)
+#     print(n)
+#     temp = [0]*n
+#     for i,ind in enumerate(results):
+#         # print(i)
+#         # print(track_list[i])
+#         # print(idx)
+#         # print(idx[i])
+#         # print(temp[idx[i]])
+#         temp[ind] = track_list[i]
+
+#     for i,ind in enumerate(results):
+#         track_list[i] = temp[i]
+#         ind = i
+
+# reorder_results(track_ids,results)
+# print(track_ids[0:10])
