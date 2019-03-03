@@ -199,7 +199,7 @@ tk.mainloop()
 
 
 
-# Print the results
+# Print the results, reorder the results playlist
 score_ind = sorted(range(len(scores)), key = lambda k: scores[k])
 results = reversed(score_ind)
 for i,ind in enumerate(results):
@@ -210,39 +210,3 @@ for i,ind in enumerate(results):
     else:
         sp.user_playlist_add_tracks(username,results_playlist,[track_ids[ind]])
     
-
-
-
-
-
-
-# Reorder the results playlist to match scores
-# https://open.spotify.com/user/1295552060/playlist/1cgMS7J9sCxKQ5vcvms4RM?si=VKXecWXGSp6Iq5LjyZ1gsw
-
-# for i,ind in enumerate(results):
-#     if i == 0:
-#         print(track_ids[ind],tracks[ind])
-#         sp.user_playlist_replace_tracks(username,results_playlist,track_ids[ind])
-
-
-# print(track_ids[results])
-# print(track_ids[0:10])
-
-# def reorder_results(track_list,results):
-#     n = len(track_list)
-#     print(n)
-#     temp = [0]*n
-#     for i,ind in enumerate(results):
-#         # print(i)
-#         # print(track_list[i])
-#         # print(idx)
-#         # print(idx[i])
-#         # print(temp[idx[i]])
-#         temp[ind] = track_list[i]
-
-#     for i,ind in enumerate(results):
-#         track_list[i] = temp[i]
-#         ind = i
-
-# reorder_results(track_ids,results)
-# print(track_ids[0:10])
