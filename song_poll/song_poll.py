@@ -176,25 +176,29 @@ def quit_command():
     spotify.kill()
     root.quit()
 
+# Font parameters
+font_size = 16
+font_type = "Arial"
+
 # Initialize the two song buttons
-button1 = tk.Button(root, width=50, command=button_command)
+button1 = tk.Button(root, width=50, command=button_command, font=(font_type, font_size))
 button1.grid(row=1, column=0)
-button2 = tk.Button(root, width=50, command=button_command)
+button2 = tk.Button(root, width=50, command=button_command, font=(font_type, font_size))
 button2.grid(row=2, column=0)
 
 # Initialize the two play buttons
-play_button1 = tk.Button(root, width=5, text='>')
+play_button1 = tk.Button(root, width=5, text='>', font=(font_type, font_size))
 play_button1.grid(row=1, column=1)
-play_button2 = tk.Button(root, width=5, text='>')
+play_button2 = tk.Button(root, width=5, text='>', font=(font_type, font_size))
 play_button2.grid(row=2, column=1)
 
 # Begin the voting
 voting_loop(button1, button2)
 
 # Create a button for quitting the program
-tk.Button(root, text='Skip', command=skip_command).grid(row=3, column=0)
-tk.Button(root, text='||', command=pause_command).grid(row=3, column=1)
-tk.Button(root, text='Quit', command=quit_command).grid(row=4, column=1)
+tk.Button(root, text='Skip', command=skip_command, font=(font_type, font_size)).grid(row=3, column=0)
+tk.Button(root, text='||', command=pause_command, font=(font_type, font_size)).grid(row=3, column=1)
+tk.Button(root, text='Quit', command=quit_command, font=(font_type, font_size)).grid(row=4, column=1)
 tk.mainloop()
 
 
