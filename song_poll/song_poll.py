@@ -232,11 +232,6 @@ if len(sys.argv) == 1:
 
 score_ind = sorted(range(len(scores)), key = lambda k: scores[k])
 results = reversed(score_ind)
-
-# for i,ind in enumerate(results):
-#     print(tracks[ind], ' --- ', scores[ind])
-#     if i > 25:
-#         break
     
     
 # Plot some of the results
@@ -255,6 +250,6 @@ plt.xticks(y_pos,song_results, rotation='vertical')
 plt.ylabel('Score')
 plt.title('Top 25 Songs')
 fig = plt.gcf()
-fig.set_size_inches(18.5, 10.5)
+fig.tight_layout()
 plt.show()
 
