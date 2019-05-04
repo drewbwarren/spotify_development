@@ -243,13 +243,19 @@ for i,ind in enumerate(results):
     score_results.append(scores[ind])
     if i >= 24:
         break
-
 y_pos = np.arange(25)
+
+# fig,ax = plt.gcf()
+fig = plt.figure(figsize=(20,10))
+ax = fig.add_subplot(1,1,1)
+ax.grid()
 plt.bar(y_pos, score_results, align='center', alpha=0.5)
+for i,v in enumerate(score_results):
+    ax.text(i-.4, v+.1 , str(v), color='blue', fontweight='bold')
 plt.xticks(y_pos,song_results, rotation='vertical')
 plt.ylabel('Score')
 plt.title('Top 25 Songs')
-fig = plt.gcf()
 fig.tight_layout()
+
 plt.show()
 
