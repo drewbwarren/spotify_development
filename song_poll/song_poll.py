@@ -10,6 +10,7 @@ from subprocess import Popen, call
 import time
 import numpy as np
 import matplotlib.pyplot as plt
+from operator import itemgetter
 
 
 ## Open Spotify so the songs can play
@@ -240,12 +241,11 @@ song_results = []
 score_results = []
 for i,ind in enumerate(results):
     song_results.append(tracks[ind])
-    score_results.append(scores[ind])
+    score_results.append(round(scores[ind],1))
     if i >= 24:
         break
 y_pos = np.arange(25)
 
-# fig,ax = plt.gcf()
 fig = plt.figure(figsize=(20,10))
 ax = fig.add_subplot(1,1,1)
 ax.grid()
@@ -256,6 +256,48 @@ plt.xticks(y_pos,song_results, rotation='vertical')
 plt.ylabel('Score')
 plt.title('Top 25 Songs')
 fig.tight_layout()
-
 plt.show()
+
+
+# Top10 artists
+# Create a dict of all the artists and their scores
+Nartists = list(set(artists))
+artist_scores = {}
+for i in range(len(Nartists)):
+    artist_scores[Nartists[i]] = 0
+
+# Find the score of each song by an artist
+for artist, score in artist_scores.iteritems():
+    Nsongs = 0
+    indices = [i for i, x in enumerate(artists) if x == artist]
+    for i,ind in enumerate(indices):
+        Nsongs = Nsongs + 1
+        score = score + scores[ind]
+    if Nsongs == 0: # Catch the exception where the score is 0
+        Nsongs = 1
+    score = score / Nsongs   
+    artist_scores[artist] = round(score,1)
+
+sorted_artists = sorted(artist_scores.items(), key=itemgetter(1))
+sorted_artists = reversed(sorted_artists)
+top_25_artist_scores = []
+top_25_artists = []
+for i,pair in enumerate(sorted_artists):
+    top_25_artists.append(pair[0])
+    top_25_artist_scores.append(pair[1])
+    if i >= 24:
+        break
+
+fig = plt.figure(figsize=(20,10))
+ax = fig.add_subplot(1,1,1)
+ax.grid()
+plt.bar(y_pos, top_25_artist_scores, align='center', alpha=0.5)
+for i,v in enumerate(top_25_artist_scores):
+    ax.text(i-.4, v+.1 , str(v), color='blue', fontweight='bold')
+plt.xticks(y_pos,top_25_artists, rotation='vertical')
+plt.ylabel('Score')
+plt.title('Top 25 Artists')
+fig.tight_layout()
+plt.show()
+
 
