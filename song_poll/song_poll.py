@@ -275,7 +275,7 @@ for artist, score in artist_scores.iteritems():
         score = score + scores[ind]
     if Nsongs == 0: # Catch the exception where the score is 0
         Nsongs = 1
-    score = score / Nsongs   
+    score = Nsongs/2 + score / Nsongs   
     artist_scores[artist] = round(score,1)
 
 sorted_artists = sorted(artist_scores.items(), key=itemgetter(1))
