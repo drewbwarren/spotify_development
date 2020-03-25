@@ -88,17 +88,19 @@ while(True):
         break
 
 # Find the tracks in the playlist, then check if they are located in the results
-for i,track in enumerate(track_check):
-    if track in tracks:
+for i,id in enumerate(id_check):
+    # if track.upper() in (name.upper() for name in tracks):
+    #     pass
+    if id in track_ids or track_check[i] in tracks:
         pass
     else:
-        tracks.append(track)
+        tracks.append(track_check[i])
         artists.append(artist_check[i])
-        track_ids.append(id_check[i])
+        track_ids.append(id)
         votes.append(0)
         at_bat.append(0)
         scores.append(0)
-        print(track + ' added')
+        print(track_check[i] + ' added')
 
 # Clear unused variables
 del i, track_check, artist_check, id_check
